@@ -1,0 +1,21 @@
+//// @file
+//
+// TODO: Brief Description of UEFI Driver MyWizardDriver
+//  
+// TODO: Detailed Description of UEFI Driver MyWizardDriver
+//
+// TODO: Copyright for UEFI Driver MyWizardDriver
+//  
+// TODO: License for UEFI Driver MyWizardDriver
+//
+////
+
+formset
+  guid     = {0x2b9b7a00, 0xf175, 0x11ec, {0x82, 0xe4, 0x44, 0x85, 0x00, 0x2a, 0x45, 0x85}},
+  title    = STRING_TOKEN(STR_SAMPLE_FORM_SET_TITLE),
+  help     = STRING_TOKEN(STR_SAMPLE_FORM_SET_HELP),
+
+  form formid = 1, title = STRING_TOKEN(STR_SAMPLE_FORM1_TITLE);
+  endform;
+
+endformset;
