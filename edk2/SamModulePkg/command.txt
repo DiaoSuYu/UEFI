@@ -1,0 +1,1 @@
+build -p edk2\SamModulePkg\SamModulePkg.dsc -t VS2019 -a X64

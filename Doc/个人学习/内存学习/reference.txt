@@ -1,8 +1,0 @@
-1. 计算机基础——MMIO&PMIO https://blog.csdn.net/weixin_43921686/article/details/129106423
-2. 内存是怎么映射到物理地址空间的？内存是连续分布的吗？ https://zhuanlan.zhihu.com/p/66288943
-3. 神秘消失的内存去哪了？ https://zhuanlan.zhihu.com/p/31189198
-4. 内存映射技术-MMIO https://blog.csdn.net/weixin_43405280/article/details/131663456
-5. 内存分布之MMIO https://blog.csdn.net/vito_bin/article/details/60779404
-6.  Processor Configuration Register Definitions and Address Ranges https://edc.intel.com/content/www/us/en/design/publications/12th-generation-core-processor-datasheet-volume-2-of-2/Chapter-2/
-7. System Address Map Initialization in x86/x64 Architecture Part 2: PCI Express-Based Systems https://blog.51cto.com/u_15075520/4624234
-8. [译 2] 系统地址映射初始化：基于 PCIe 的系统 https://zhuanlan.zhihu.com/p/678580835
