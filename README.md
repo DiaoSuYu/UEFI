@@ -54,8 +54,18 @@ source linux_build.sh
 
 ## 3. Help
 
-- If you encounter this error `/usr/bin/env: 锟斤拷bash\r锟斤拷: No such file or directory` during compilation under `Linux`, please execute the following command:
+### 3.1 `/usr/bin/env: 'bash\r': No such file or directory`
 
-```shell
-find . -type f -exec dos2unix {} +
-```
+- If you encounter this error during compilation under `Linux`, please execute the following command
+
+    ```shell
+    # Convert all files recursively (entire project)
+    find . -type f -exec dos2unix {} +
+    ```
+
+- You can also convert only one specified file:
+
+    ```shell
+    # Convert a single file
+    dos2unix linux_init.sh
+    ```

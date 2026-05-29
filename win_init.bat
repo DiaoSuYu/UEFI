@@ -68,6 +68,19 @@ set PATH=C:\Windows;%PATH%
 set PATH=C:\Windows\system32;%PATH%
 
 
+
+@REM +-------------------------------+
+@REM | Disable SSL certificate check |
+@REM +-------------------------------+
+%GIT_COMMAND% config --global http.sslVerify false
+
+
+@REM +-------------------------------+
+@REM | Disable CRLF auto-conversion  |
+@REM +-------------------------------+
+%GIT_COMMAND% config --global core.autocrlf false
+
+
 @REM +-------------------------------+
 @REM | Update submodule in root path |
 @REM +-------------------------------+
